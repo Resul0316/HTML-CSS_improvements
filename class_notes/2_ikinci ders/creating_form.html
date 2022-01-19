@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating forms</title>
+    <style>
+        #personalInfo{
+            border: 5px groove black;
+            border-radius: 20px;    
+        }
+        /* #input{
+            margin: 30px auto;
+            padding: 30px;
+        } */
+        #AgeGender{
+            border: 5px groove black;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        #other{
+            border: 5px groove black;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <div id="personalInfo">
+        
+         <br>
+    <div>
+        <label for="name">First Name</label>
+        <input type="text" name="firstname" id="name"> 
+    </div>
+<br>
+    <div>
+        <label for="surname">Last Name</label>
+        <input type="text" name="Surname" id="surname">
+    </div>
+<br>
+    <div>
+        <label for="nick">Nickname</label>
+        <input type="text" name="Nick" id="nick">
+    </div>
+<br>
+    </div>
+<br>
+<div id="AgeGender">
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="" id="">
+<br>
+<br>
+        <label for="Gender">Gender</label> <br>
+<br>
+        <label for="male">Male</label>
+        <input type="radio" name="Male" id="male"> 
+
+        <label for="female">Female</label>
+        <input type="radio" name="Female" id="female">
+    </div>
+<br>
+</div>
+<br>
+    <div id="other">
+        <label for="country">Country</label>
+        <input type="country" name="Country" id="country">
+<br>
+<br>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" placeholder="example@gmail.com">
+<br>
+<br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="tel" id="phone">
+<br>
+<br>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password">
+<br>
+<br>
+        <label for="confirm">Confirm Password</label>
+        <input type="password" name="Confirm" id="confirm">
+    </div>
+
+
+
+</body>
+</html>
