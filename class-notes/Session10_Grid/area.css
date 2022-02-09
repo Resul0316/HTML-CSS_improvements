@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows: 100px 400px 100px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "footer footer footer" ;
+}
+.content{
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+
+.header{
+    grid-area: header;
+}
+.content6{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+}
+
+
+
